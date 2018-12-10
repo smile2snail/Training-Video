@@ -1,0 +1,71 @@
+/* Add by Jenny Song 12/3/2018 */
+body{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menuslide{
+  list-style-type: square;
+}
+
+#content{
+  margin-top: 2rem;
+}
+
+.row{
+  margin-right: 5%;
+  margin-top: 5px;
+  margin-left: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+#swift_vid_1{
+  width: 10%;
+  margin-right: 5%;
+}
+
+.tech_title{
+  display: block;
+}
+
+.img-fluid{
+  height: 200px;
+}
+
+/* PlayButton in each video */
+.video_box a img{
+  cursor: pointer;
+}
+
+.play_button{
+  position: absolute;
+  width: 30%;
+  margin-left: 30%;
+  margin-top: 15%;
+  opacity: 0.7;
+}
+
+.video_box:hover .img-fluid{
+  background-color: white;
+  opacity: 0.3;
+}
+
+.video_box p{
+  background-color: #F8F8F8;
+  height: 70px;
+  text-align: center;
+}
+
+/* Load more button */
+.load{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
